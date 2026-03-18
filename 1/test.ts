@@ -8,9 +8,9 @@ const testBuilder = (nums: number[], target: number, answer: number[]) => () => 
   assert.deepStrictEqual(result, answer);
 }
 
-describe('example checks', () => {
+describe('Problem 1 example checks', () => {
   it('example 1', testBuilder([2, 7, 11, 15], 9, [0, 1]));
-  it.only('example 2', testBuilder([3, 2, 4], 6, [1, 2]));
+  it('example 2', testBuilder([3, 2, 4], 6, [1, 2]));
   it('example 3', testBuilder([3, 3], 6, [0, 1]));
 });
 
